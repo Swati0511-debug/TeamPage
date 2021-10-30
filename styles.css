@@ -1,0 +1,209 @@
+
+h1{
+  font-family: 'Fruktur', cursive;
+  letter-spacing: 2px;
+}
+.Teams h1
+{
+
+  position: relative;
+  top: 10px;
+  bottom: 20px;
+  text-align: center;
+  padding: 4% 0;
+  font-size: 1.6rem;
+  background-image: url("https://www.dscvjti.tech/wavesOpacity.svg");
+}
+.teamLead h1{
+  position: relative;
+  top: 10px;
+  bottom: 20px;
+  text-align: center;
+  padding: 4% 0;
+}
+h5{
+    font-family: 'Fruktur', cursive;
+    color: #e74435;
+    font-size: 0.8rem;
+}
+p{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.25rem;
+}
+.Teams p{
+  color: #f9bb06;
+  font-size: 1.05rem;
+}
+
+header{
+
+  background-repeat: repeat;
+}
+header .row{
+    height: 500px;
+}
+.navbar-icon{
+  height:50px;
+  width:50px;
+}
+.navbar{
+padding-left: 50px;
+padding-right: 50px;
+box-shadow: 0px 2px grey;
+}
+.title_text{
+
+  text-align: center;
+}
+.titlePart1{
+  text-align: center;
+  background-image: url("images\\Teamtitle.jpg");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.titleVideo{
+  position: relative;
+  height: 70%;
+  width: 80%;
+  align-self: center;
+  border-left-style: solid;
+  border:10px;
+  top: 15%;
+  border-radius: 10px;
+}
+
+
+.card{
+margin: auto;
+width:15rem;
+margin-bottom: 30px;
+align-items:center;
+text-align: center;
+margin-bottom: 10%;
+border-top: 4px solid  #e74435 !important;
+border-bottom: 4px solid  #f9bb06  !important;
+border-left: 4px solid #4385f3 !important;
+border-right: 4px solid #109d58 !important;
+transition: border-width 0.6s linear;
+}
+.card:hover{
+  border-top: 7px solid  #e74435 !important;
+  border-bottom: 7px solid #f9bb06  !important;
+  border-left: 7px solid #4385f3 !important;
+  border-right: 7px solid #109d58 !important;
+}
+
+.hide {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+.hide a{
+  display: inline-block;
+}
+.card:hover .card-img-top {
+  opacity: 0.3;
+}
+
+.card:hover .hide {
+  opacity: 1;
+}
+
+.teamLead{
+background-image: url("images\\trial.png"), url("images\\trial.png");
+background-position:left, bottom right;
+background-repeat: no-repeat,no-repeat;
+background-size: 25%,30%;
+}
+.card-img-top{
+  height: 250px;
+  width:200px;
+  border-radius: 50%;
+}
+
+.fa-linkedin{
+  font-size: 1.8rem;
+  padding-right: 10px;
+    color: #4385f3;
+}
+.fa-github{
+  font-size: 1.8rem;
+    color: black;
+}
+.technicalTeam{
+padding: 2% 0;
+
+}
+.technicalTeam .row{
+margin: 0 15%;
+}
+.mentorCommunityManager{
+padding: 2% 0;
+}
+.mentorCommunityManager .row{
+margin: 0 15%;
+}
+.designContentTeam{
+padding: 2% 0;
+}
+.designContentTeam .row{
+margin: 0 7%;
+}
+.outreachTeam{
+padding: 2% 0;
+}
+.outreachTeam .row{
+margin: 0 17%;
+}
+.websiteTeam{
+padding: 2% 0;
+}
+.websiteTeam .row{
+margin: 0 7%;
+}
+@media (max-width:1268px) {
+  .technicalTeam .row{
+  margin: 0 2%;
+  }
+  .mentorCommunityManager .row{
+  margin: 0 0%;
+  }
+  .designContentTeam .row{
+  margin: 0 0;
+  }
+  .outreachTeam .row{
+  margin: 0 2%;
+  }
+  .websiteTeam .row{
+  margin: 0 0;
+  }
+  .card{
+    width:14rem;
+  }
+}
+@media (max-width:980px) {
+  .technicalTeam .row{
+  margin: 0 17%;
+  }
+  .mentorCommunityManager .row{
+  margin: 0 10%;
+  }
+  .designContentTeam .row{
+  margin: 0 17%;
+  }
+  .outreachTeam .row{
+  margin: 0 17%;
+  }
+  .websiteTeam .row{
+  margin: 0 17%;
+  }
+}
